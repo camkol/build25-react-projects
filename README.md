@@ -29,7 +29,7 @@ Users should be able to:
 - Click "Create RGB Color" to switch to RGB color style setting
 - Click "Generate Random Color" to randomly generate a color in color style setting
 
-### Screenshot
+### Screenshots
 
 ![](./screen/accordion.jpg) ![](./screen/randomcolor.jpg)
 
@@ -41,9 +41,19 @@ Users should be able to:
 
 #### Accordian
 
+- The 'Accordion' React component utilizes the 'useState' hook to manage selected items and enable/disable multi-selection.
+- It dynamically renders a list of items fetched from an external data source, each with a toggleable title and content section. Users can switch between two modes: single selection and multi-selection, which are controlled by the 'enableMultiSelection' state.
+- In single selection mode, clicking an item's title expands or collapses its content to reveal or hide the answer.
+- Conversely, multi-selection mode allows users to toggle the selection status of multiple items simultaneously.
+- This component ensures efficient re-rendering based on user interactions, delivering a responsive and interactive experience tailored to the selected mode and items.
+
 #### Random Color
 
-DONT FORGET!!
+- The RandomColor component in React generates random colors based on user-selected color types (HEX or RGB) using two state variables: typeOfColor and color.
+- It includes utility functions, handleCreateRandomHexColor for HEX colors and handleCreateRandomRgbColor for RGB colors, to produce random color values.
+- These functions leverage hexadecimal digits or RGB ranges to generate diverse colors.
+- The useEffect hook is employed to update the displayed color whenever the typeOfColor state changes, ensuring real-time rendering of the selected color type.
+- The component's user interface features buttons for toggling between color types, triggering color generation, and displaying the current color type and value dynamically.
 
 ### Built with
 
@@ -55,7 +65,13 @@ DONT FORGET!!
 
 ### What I learned
 
-This was a class exercise to learn about useState.
+#### Accordian
+
+Learn in the process of order placing functions.
+
+#### Random Color
+
+With this, had atouch on useEffect
 
 ### Continued development
 
