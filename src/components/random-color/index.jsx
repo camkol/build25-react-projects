@@ -45,7 +45,7 @@ export default function RandomColor() {
             : handleCreateRandomRgbColor
         }
       >
-        Generate Random Colot
+        Generate Random Color
       </button>
       <div
         style={{

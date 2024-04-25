@@ -23,6 +23,12 @@ Users should be able to:
 - When question is clicked, an answer is revealed.
 - When Enable buttpn is clicked, multiple questions can be opened
 
+#### Random Color
+
+- Click "Create HEX Color" to switch to HEX color style setting
+- Click "Create RGB Color" to switch to RGB color style setting
+- Click "Generate Random Color" to randomly generate a color in color style setting
+
 ### Screenshot
 
 ![](./screen.jpg)
