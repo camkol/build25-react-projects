@@ -31,13 +31,17 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screen.jpg)
+![](./screen/accordion.jpg) ![](./screen/randomcolor.jpg)
 
 ### Links
 
 - Live Site URL: [View](https://flashcards2.netlify.app/)
 
 ## My process
+
+#### Accordian
+
+#### Random Color
 
 DONT FORGET!!
 
