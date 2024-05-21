@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [View](https://flashcards2.netlify.app/)
+- Live Site URL: [View](https://build25reactprojects.netlify.app/)
 
 ## My process
 
